@@ -32,7 +32,6 @@ nbdist/
 Thumbs.db
 
 # JBoss/Wildfly deployment
-*.war
 *.ear
 
 # Test/coverage reports
