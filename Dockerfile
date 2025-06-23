@@ -1,4 +1,4 @@
-FROM registry.redhat.io/jboss-eap-7/eap74-openjdk11-runtime-openshift-rhel8
+FROM registry.redhat.io/jboss-eap-7/eap74-openjdk11-openshift-rhel8
 
 # Salin file WAR hasil build ke direktori deployments
 COPY target/*.war /opt/eap/standalone/deployments/
